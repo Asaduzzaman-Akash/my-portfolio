@@ -6,14 +6,12 @@ export default function Home() {
           Md. Asaduzzaman Akash
         </h1>
         <p className="text-xl font-semibold text-white md:pb-1 md:text-3xl">
-          Front End Developer & Coffee Lover
+          Front-End Developer & Coffee Lover
         </p>
         <p className="text-lg  text-stone-300  md:text-xl">
-          As a front-end web developer with a specialization in React, I
-          have a keen eye for creating visually stunning and highly responsive
-          user interfaces. With a natural talent for problem solving and an
-          ability to quickly learn new technologies, I am always pushing myself
-          to stay ahead of the curve.
+          As a front-end web developer with a specialization in React, I have a
+          keen eye for creating visually stunning and highly responsive user
+          interfaces.
         </p>
       </div>
     </main>
