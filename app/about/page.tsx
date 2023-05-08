@@ -16,18 +16,18 @@ export default function AboutPage() {
         <div className="flex flex-col items-center space-y-5  md:flex-row md:space-x-4 md:space-y-0 ">
           <div className="md:mt-2 md:w-1/2">
             <Image
-              src="https://media.licdn.com/dms/image/D4E03AQFouQzh7J_CiQ/profile-displayphoto-shrink_800_800/0/1666373145254?e=1687996800&v=beta&t=lXqWJGriZB93apQQYavEy9cpfv6TmnOTCEFUethMejQ"
+              src="https://media.licdn.com/dms/image/D5603AQGwp66gsYn_IQ/profile-displayphoto-shrink_800_800/0/1682805415837?e=1687996800&v=beta&t=-4HKvTXpc0oUWb47RVmsBaZ5wlDBATMhqG_YqD6LTac"
               alt=""
               width={300}
               height={300}
-              className="shadow-2xl "
+              className="shadow-2xl"
             />
           </div>
           <div className="text-center text-stone-100 md:mt-2 md:w-1/2 md:text-left">
             <p className="text-lg leading-7 ">
               Hi, my name is{" "}
               <span className="font-semibold">Md. Asaduzzaman Akash</span>! I am
-              a software engineer and front end developer based in{" "}
+              a front end web developer based in{" "}
               <span className="font-semibold">Dhaka, Bangladesh.</span>
             </p>
             <br />

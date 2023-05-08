@@ -1,7 +1,15 @@
 import React from "react";
 import { FaDog } from "react-icons/fa";
 import { MdOutlineNoPhotography } from "react-icons/md";
+
+import { MdMarkEmailUnread } from "react-icons/md";
+
+import { SiMicrodotblog } from "react-icons/si";
+
 import { TiWeatherCloudy } from "react-icons/ti";
+
+import { MdOutlineEventAvailable } from "react-icons/md";
+
 import {
   AiOutlineGithub,
   AiOutlineTwitter,
@@ -16,21 +24,31 @@ import { RiQuillPenLine } from "react-icons/ri";
 
 export const FRONTEND_APPS = [
   {
+    name: "NextEvents",
+    icon: <MdOutlineEventAvailable size={30} className="text-stone-100 " />,
+    description:
+      "An event app designed to showcase the benefits of file-based routing of Next.js.",
+    link: "https://nextevent-rust.vercel.app/",
+  },
+  {
     name: "LensLyfe Photography",
     icon: <MdOutlineNoPhotography size={30} className="text-stone-100 " />,
-    description: "A stunning photography app.",
+    description:
+      "Next.js photography app: elegant, responsive and customizable.",
     link: "https://lenslyfephotography.netlify.app/",
   },
+
   {
     name: "TinDog",
     icon: <FaDog size={30} className="text-stone-100 " />,
-    description: "A dog magazine web app.",
+    description: "Bootstrap-powered dog magazine app for canine enthusiasts.",
     link: "https://dogmagazine.netlify.app/",
   },
   {
     name: "Weather App",
     icon: <TiWeatherCloudy size={30} className="text-stone-100 " />,
-    description: "Only app you need to get weather information.",
+    description:
+      "React-based weather app: global forecasts at your fingertips.",
     link: "https://github.com/Asaduzzaman-Akash/WeatherApp-React-Tailwind",
   },
 ];
@@ -39,8 +57,22 @@ export const BACKEND_APPS = [
   {
     name: "ToDoList",
     icon: <FcTodoList size={30} className="text-stone-100 " />,
-    description: "A Todo List app which got backend support with mongoose.",
+    description: "Todo List app which got backend support with MongoDB.",
     link: "https://github.com/Asaduzzaman-Akash/Todo-List-v2",
+  },
+  {
+    name: "Blog",
+    icon: <SiMicrodotblog size={30} className="text-stone-100 " />,
+    description:
+      "A Blog web app where you can add blog post and also search for specific post.",
+    link: "https://github.com/Asaduzzaman-Akash/Blog-v2-mongoose",
+  },
+  {
+    name: "Newsletter",
+    icon: <MdMarkEmailUnread size={30} className="text-stone-100 " />,
+    description:
+      "A newsletter signup web app where I can sign people to my newsletter by email.",
+    link: "https://github.com/Asaduzzaman-Akash/Newsletter-Signup-with-MailchimpAPI",
   },
 ];
 
